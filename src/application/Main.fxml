@@ -651,7 +651,12 @@
                                                       </ImageView>
                                                    </graphic>
                                                 </JFXButton>
-                                                <Label layoutX="10.0" layoutY="297.0" prefHeight="26.0" prefWidth="37.0" text="Label" />
+                                                <Label layoutX="10.0" layoutY="297.0" prefHeight="26.0" prefWidth="48.0" text="Total">
+                                                   <font>
+                                                      <Font size="20.0" />
+                                                   </font>
+                                                </Label>
+                                                <Label alignment="CENTER" layoutX="65.0" layoutY="302.0" prefHeight="17.0" prefWidth="25.0" text=":" />
                                              </children>
                                           </AnchorPane>
                                           <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="116.0" prefWidth="670.0" styleClass="white-bg" stylesheets="@application.css">
@@ -682,7 +687,7 @@
                                                                               </ImageView>
                                                                            </children>
                                                                         </Pane>
-                                                                        <Label alignment="CENTER" prefHeight="35.0" prefWidth="124.0" text="Medicine Name" />
+                                                                        <Label alignment="CENTER" prefHeight="35.0" prefWidth="124.0" text="Lylizard" />
                                                                      </children>
                                                                   </VBox>
                                                                   <VBox layoutX="10.0" layoutY="10.0" prefHeight="125.0" prefWidth="120.0" styleClass="white-bg" stylesheets="@application.css">

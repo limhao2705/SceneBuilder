@@ -1,0 +1,18 @@
+.login_bg{
+	-fx-background-color: #cef0f2;
+}
+.usernameBtn{
+	-fx-background-color: transparent;
+	-fx-border-color: #a6e8ed;
+	-fx-border-width: 0px 0px 2px 0px;
+}
+.login_btn{
+	-fx-background-color: #fff;
+	-fx-background-radius: 10px;
+	-fx-border-color: #a6e8ed;
+	-fx-border-radius:10px;
+	-fx-cursor:hand;
+}
+.close{
+	-fx-cursor:hand;
+}

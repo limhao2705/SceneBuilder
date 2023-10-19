@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="login_form" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LoginControl">
+   <right>
+      <AnchorPane prefHeight="500.0" prefWidth="372.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="username" layoutX="81.0" layoutY="213.0" prefWidth="200.0" promptText="Username" styleClass="usernameBtn" stylesheets="@login.css" />
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="54.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Documents/images/username.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="54.0" layoutY="274.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Documents/images/password.png" />
+               </image>
+            </ImageView>
+            <PasswordField fx:id="password" layoutX="81.0" layoutY="272.0" prefWidth="200.0" promptText="Password" styleClass="usernameBtn" stylesheets="@login.css" />
+            <JFXButton fx:id="close" contentDisplay="GRAPHIC_ONLY" layoutX="316.0" layoutY="14.0" onAction="#close" prefWidth="36.0" styleClass="close" stylesheets="@login.css">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Documents/images/close.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="login_btn" layoutX="75.0" layoutY="367.0" onAction="#signin" prefHeight="50.0" prefWidth="200.0" styleClass="login_btn" stylesheets="@login.css" text="Login">
+               <font>
+                  <Font name="MuktaMahee Bold" size="18.0" />
+               </font>
+            </JFXButton>
+            <ImageView fitHeight="109.0" fitWidth="105.0" layoutX="123.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Documents/images/icons8-user-100.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="141.0" layoutY="153.0" text="Admin Login">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="loginMsgBtn" alignment="CENTER" layoutX="71.0" layoutY="181.0" prefHeight="17.0" prefWidth="221.0" textFill="#d70d0d" />
+         </children>
+      </AnchorPane>
+   </right>
+   <center>
+      <AnchorPane fx:id="login_left" prefHeight="500.0" prefWidth="350.0" styleClass="login_bg" stylesheets="@login.css" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="89.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Documents/images/Pharmacy.PNG" />
+               </image>
+            </ImageView>
+            <Label layoutX="47.0" layoutY="234.0" prefHeight="32.0" prefWidth="255.0" text="Pharmacy Management System">
+               <font>
+                  <Font name="MuktaMahee Bold" size="18.0" />
+               </font>
+            </Label>
+            <Line endX="102.5" layoutX="175.0" layoutY="405.0" startX="-119.5" />
+            <ImageView fitHeight="36.0" fitWidth="34.0" layoutX="40.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Documents/images/syringe.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="34.0" fitWidth="36.0" layoutX="276.0" layoutY="445.0" pickOnBounds="true" preserveRatio="true" rotate="-55.5">
+               <image>
+                  <Image url="@../../../../Documents/images/styling1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="231.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true" rotate="-37.8">
+               <image>
+                  <Image url="@../../../../Documents/images/styling3.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="34.0" fitWidth="31.0" layoutX="14.0" layoutY="310.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Documents/images/styling2.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="36.0" fitWidth="36.0" layoutX="231.0" layoutY="308.0" pickOnBounds="true" preserveRatio="true" rotate="76.0">
+               <image>
+                  <Image url="@../../../../Documents/images/medicine.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="32.0" fitWidth="26.0" layoutX="19.0" layoutY="237.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Documents/images/pharmacy%20logo%20copy.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="101.0" layoutY="469.0" text="\@CopyRight: Reserved" />
+            <Label layoutX="101.0" layoutY="454.0" prefHeight="17.0" prefWidth="126.0" text="Author: Limhao" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

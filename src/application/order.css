@@ -1,0 +1,7 @@
+.white_bg{
+	-fx-background-color: #fff;
+	-fx-background-radius: 8px;
+	-fx-border-color: #000000;
+	-fx-border-radius: 8px;
+	-fx-border-width: 1px;
+}

@@ -1,0 +1,12 @@
+.button{
+	-fx-background-color:transparent;
+	-fx-background-radius:10px;
+	-fx-border-color:#000;
+	-fx-border-radius:10px;
+	-fx-cursor:hand;
+}
+.med_image{
+	-fx-border-color:#000;
+	-fx-border-radius:10px;
+	-fx-cursor:pointer;
+}

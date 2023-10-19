@@ -1,0 +1,36 @@
+.search{
+	-fx-background-color:#fff;
+	-fx-background-radius:12px;
+}
+.search .inside-search{
+	-fx-background-color:transparent;
+}
+.white_bg{
+	-fx-background-color:#fff;
+	-fx-background-radius:8px;
+}
+.shadow{
+	-fx-effect:dropshadow(three-pass-box, rgba(0, 0, 0, 0.5), 6, 0, 0, 0);
+}
+.ai_solution, .AI_tableVIew{
+	-fx-background-color:transparent;
+	-fx-border-color: #000000;
+	-fx-border-width:1px;
+	-fx-border-radius:6px;
+}
+.purchase_addtocartBtn{
+	-fx-border-color:#000000;
+	-fx-border-width:1px;	
+	-fx-cursor:hand;
+	-fx-border-radius:8px;
+}
+.purchase_payBtn{
+	-fx-border-color:#000000;
+	-fx-border-width:1px;	
+	-fx-cursor:hand;
+	-fx-border-radius:8px;
+}
+.profile_setting{
+	-fx-background-color:transparent;
+	-fx-cursor:hand;
+}
